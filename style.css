@@ -187,15 +187,17 @@ footer{
     .topo-links { border-top:1px double rgba(0, 0, 0, .1);}
     .topo-links{padding: 10px;}
     .secao-imgfundo{ height: 200px;}
-    .secao-imgfundo h1{ font-size: 15px;}
+    .secao-imgfundo h1{ font-size: 22px;} 
     .card-especialidade{ width: 100%;}
 }
 
 @media(max-width: 280px){
+     .secao-imgfundo{ height: 160px;}
      .topo-links a, li{font-size: 13px;}
+     .secao-imgfundo h1{ font-size: 17px ;}
      h2, h3{ font-size: 18px;}
-     p{ font-size: 13px;}
-     .card-especialidade{ width: ; 100%}
+     p{ font-size: 14px;}
+     .card-especialidade{ width: 100%}
 }
 
 /*Fim media queries*/
