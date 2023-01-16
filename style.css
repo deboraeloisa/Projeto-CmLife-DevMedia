@@ -185,7 +185,7 @@ footer{
 @media(max-width: 425px)  {
     .topoconteudo{ display: flex; flex-direction: column; }
     .topo-links { border-top:1px double rgba(0, 0, 0, .1);}
-    .topo-links{padding: 10px;}
+    .topo-links {padding: 10px;}
     .secao-imgfundo{ height: 200px;}
     .secao-imgfundo h1{ font-size: 22px;} 
     .card-especialidade{ width: 100%;}
@@ -199,6 +199,5 @@ footer{
      p{ font-size: 14px;}
      .card-especialidade{ width: 100%}
 }
-
 /*Fim media queries*/
 
