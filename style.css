@@ -1,0 +1,202 @@
+/* Inicio estilos Gerais */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.secao{
+   max-width: 600px;
+    margin: 0 auto;
+}
+/* Fim Estilos Gerais */
+
+
+
+/* Início CSS Topo */
+.topo{
+    width: 100%;
+    background-color: #00cad1;
+    min-height: 60px;
+    margin: 0 auto;
+
+}
+ .topoconteudo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+ }
+
+.topo-logo{
+   height: 60px;
+}
+
+.topo-links a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.topo-links a:hover{
+    color: #004b4c;
+}
+/* Fim CSS Topo */
+
+
+
+/*Inicio CSS imagem de fundo*/
+.secao-imgfundo{
+    width: 100%;
+    background-image: url(img/recepcao.png);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.secao-imgfundotitulo h1{
+    width: 100%;
+    color: #fff; 
+    font-size: 40px;
+    font-weight: 450;
+    line-height: 55px;
+    margin: 0;
+}
+/*Fim CSS imagem fundo*/
+
+
+
+/*Inicio CSS conteudo da pagína*/
+#sobre,
+#especialidades,
+#contato {
+  padding: 30px 20px 0;
+  
+}
+
+ .secao-imgmedico{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    color: #0000008c;
+    line-height: 20px;
+   
+ }
+ .secao-imgmedico h3{
+    text-transform: uppercase;
+    font-weight: 500;
+
+ }
+
+.conteudo{
+    width: 100%;
+    color: #0000008c;
+    text-align: center;
+    line-height: 20px;
+}
+
+.card-especialidades{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    
+}
+
+
+.card-especialidade img{
+    width: 100%;
+}
+
+.card-especialidade {
+ 
+  border-radius: 3px;
+  box-shadow: 0px 1px 10px rgb(0 0 0 / 50%);
+  margin: 20px;
+  width: calc(100% / 3 - 40px)
+}
+
+.card-especialidade figcaption{
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #0000008c;
+}
+
+.horarios{
+    display: flex;
+    justify-content: center;
+}
+
+.link-horarios{
+    text-decoration: none;
+    color: #fff;
+    background-color: #00cad1;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-weight: 500;
+
+}
+
+.contatos{
+    line-height: 25px;
+}
+.contato iframe{
+    margin-bottom: 50px ;
+}
+/*Fim CSS conteudo da pagína*/ 
+
+
+/*Inicio CSS rodape*/ 
+footer{
+  width: 100%;
+  background-color: #0d6e71;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  line-height: 25px;
+} 
+
+/* Fim CSS rodape*/
+
+/*inicio media queries*/
+
+@media (max-width: 1024px) {
+.secao-imgfundo { height: 400px; }
+}
+
+@media (max-width:768px){
+  .secao-imgfundo{height: 300px;}
+  .sobre img{ display: none; }
+  .card-especialidade{ width: calc(100%/2 - 40px); }   
+}
+
+@media(max-width: 425px)  {
+    .topoconteudo{ display: flex; flex-direction: column; }
+    .topo-links { border-top:1px double rgba(0, 0, 0, .1);}
+    .topo-links{padding: 10px;}
+    .secao-imgfundo{ height: 200px;}
+    .secao-imgfundo h1{ font-size: 15px;}
+    .card-especialidade{ width: 100%;}
+}
+
+@media(max-width: 280px){
+     .topo-links a, li{font-size: 13px;}
+     h2, h3{ font-size: 18px;}
+     p{ font-size: 13px;}
+     .card-especialidade{ width: ; 100%}
+}
+
+/*Fim media queries*/
+
