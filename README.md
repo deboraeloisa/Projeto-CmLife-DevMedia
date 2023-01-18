@@ -1,2 +1,2 @@
 # Projeto-CmLife-DevMedia
-Estusp para tecnicas responsivas 
+Estudo para tecnicas responsivas 
